@@ -12,7 +12,25 @@
 1. Meta Quest 2 support with cutout transparency
 1. Gut feel check
 
-# Mobile Medium Performance Rank Limits
+## glTF - VRM Version 0 Performance Rank Limits
+
+| Avatar Quality                            | Poor         |
+| ----------------------------------------- | ------------ |
+| Primitives (Mesh Complexity)              | 70,000       |
+| Bounds Size (Model Scale)                 | 5m x 6m x 5m |
+| Texture Memory (Texture Size)             | 150 MB       |
+| Morph Targets (Blendshape Amount)         | 16           |
+| Meshes (Mesh Count)                       | 24           |
+| Materials (Material Count)                | 32           |
+| Secondary Animation Components            | 32           |
+| Secondary Animation Affected Nodes        | 256          |
+| Secondary Animation Collision Check Count | 512          |
+| Animations                                | 32           |
+| Joints (Joint Count)                      | 400          |
+| Lights                                    | 1            |
+| Spring Bones                              | 32           |
+
+## Mobile Medium Performance Rank Limits
 
 | Attribute                       | Limit        |
 | ------------------------------- | ------------ |
@@ -37,7 +55,7 @@
 | Trail Renderers                 | 0            |
 | Line Renderers                  | 0            |
 
-# PCVR Poor Performance Rank Limits
+## PCVR Poor Performance Rank Limits
 
 | Avatar Quality                     | Poor         |
 | ---------------------------------- | ------------ |
@@ -71,21 +89,3 @@
 | Physics Colliders                  | 8            |
 | Physics Rigidbodies                | 8            |
 | Audio Sources                      | 8            |
-
-# glTF - VRM Version 0 Performance Rank Limits
-
-| Avatar Quality                            | Poor         |
-| ----------------------------------------- | ------------ |
-| Primitives (Mesh Complexity)              | 70,000       |
-| Bounds Size (Model Scale)                 | 5m x 6m x 5m |
-| Texture Memory (Texture Size)             | 150 MB       |
-| Morph Targets (Blendshape Amount)         | 16           |
-| Meshes (Mesh Count)                       | 24           |
-| Materials (Material Count)                | 32           |
-| Secondary Animation Components            | 32           |
-| Secondary Animation Affected Nodes        | 256          |
-| Secondary Animation Collision Check Count | 512          |
-| Animations                                | 32           |
-| Joints (Joint Count)                      | 400          |
-| Lights                                    | 1            |
-| Spring Bones                              | 32           |
