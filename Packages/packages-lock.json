@@ -1,11 +1,5 @@
 {
   "dependencies": {
-    "com.needle.auto-installer": {
-      "version": "file:installer.jp.pokemori.vrm-converter-for-vrchat",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.unity.burst": {
       "version": "1.4.11",
       "depth": 1,
@@ -146,6 +140,56 @@
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       }
+    },
+    "com.vrmc.gltf": {
+      "version": "0.110.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.110.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.vrmc.univrm": {
+      "version": "0.110.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.110.0",
+        "com.vrmc.gltf": "0.110.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.vrmc.vrmshaders": {
+      "version": "0.110.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "jp.pokemori.univrm-extensions": {
+      "version": "8.2.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.vrmc.univrm": "0.110.0"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "jp.pokemori.vrm-converter-for-vrchat": {
+      "version": "40.1.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.vrchat.avatars": "3.2.0",
+        "com.vrmc.univrm": "0.110.0",
+        "jp.pokemori.univrm-extensions": "8.2.0"
+      },
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
