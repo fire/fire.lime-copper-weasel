@@ -9,7 +9,7 @@
 1. The body mesh must be intact -- Parts of the body MUST not be removed.
 1. VRM0 materials
 1. VRM0 spring bones
-1. Meta Quest 2 support with cutout transparency
+1. 52 blend shapes for the face
 1. Gut feel check
 
 ## glTF - VRM Version 0 Performance Rank Limits
