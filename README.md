@@ -9,3 +9,4 @@
 1. the body mesh must be intact
 1. VRM0
 1. Gut feel check
+1. Meta Quest 2 support
