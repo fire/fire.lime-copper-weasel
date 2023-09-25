@@ -10,6 +10,10 @@
 1. VRM0 materials
 1. VRM0 spring bones
 1. 52 blend shapes for the face
+1. Delete transparent meshes
+1. Run spring bone tool
+1. Run skirt tool
+1. Run blender dem bones or SVD mesh skinning corrector to convert 8 weights to 4.
 1. Gut feel check
 
 ## glTF - VRM Version 0 Performance Rank Limits
