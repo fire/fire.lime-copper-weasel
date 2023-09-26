@@ -11,6 +11,7 @@
 1. VRM0 spring bones
 1. 52 blend shapes for the face
 1. Delete transparent meshes
+1. Generate clothing bones by hand with an end bone
 1. Run spring bone tool
 1. Run skirt tool
 1. Run blender dem bones or SVD mesh skinning corrector to convert 8 weights to 4.
